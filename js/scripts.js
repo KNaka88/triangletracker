@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-  // Back End Program
-
+//// Back End Program
   //Triangle Check
   var triangleCheck = function(sideA, sideB, sideC){
       if(notTriangleCheck(sideA, sideB, sideC)){
@@ -36,7 +35,8 @@ $(document).ready(function(){
     };
   };
 
-  //Front End Program
+
+////Front End Program
   var sideA = parseFloat(prompt("Please type the length of A"));
   var sideB = parseFloat(prompt("Please type the length of B"));
   var sideC = parseFloat(prompt("Please type the length of C"));
